@@ -7,7 +7,6 @@
 
 html,body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* font-size:19px; */
     line-height:1.4em;
 }
 
@@ -27,13 +26,13 @@ p {
 /* utilityclass */
 .container{
     margin:auto;
-    max-width:1200px;
+    max-width:2000px;
     overflow:auto;
     padding:0 20px;
 }
 .text-primary{
     color:#f7c08a;
-    font-size:40px
+    font-size:40px;
 }
 .bgPrimary{
     background-color: #f7c08a;
@@ -96,12 +95,13 @@ p {
      padding-top:55px;
  }
  .showcase-content h1{
-    font-size:50px;
+    font-size:40px;
  }
 
 
  .lead{
      font-size:25px;
+     padding:0.5rem 3rem;
      line-height:1.7em;
      
 }
@@ -128,41 +128,42 @@ p {
 #home-info .info-img{
     float:left;
     width:50%;
+    height:100vh;
     min-height:100%;
-    
-    background-image:url('../img/2.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    
-    /* border-radius:50%; */
-   
+    background:url('../img/2.jpg') center center/cover;
 
 }
 #home-info .info-content{
     float:right;
     width:50%;
+    height:100vh;
     min-height:100%;
     background-color:#ba926e;
     font-size:25px;
+    line-height:1.5em;
     text-align:center;
      color:white;
     overflow:hidden;
 } 
 #home-info .info-content h2{
-    padding:100px 20px 10px 20px;
+    padding:100px 20px 30px 20px;
     }
+    #home-info .info-content p{
+        text-align:center;
+        padding:10px 20px 30px 20px;
+        }
 
     /* features */
 .box{
     float:left;
-    font-size:26px;
+    font-size:20px;
+    line-height:2.3rem;
     width:33.33%;
     padding-top:30px;
     text-align:center;
-    height:20rem;
+    height:25rem;
     background-color:#444;
-    overflow:hidden;
+    /* overflow:hidden; */
 }
 .box-bgLight{
     background-color:#D3DEE2;
@@ -182,10 +183,13 @@ p {
     display:block;
     padding:5em 0;
     margin:auto;
-    width:90%;
+    height:auto;
+    width:100%;
 }
 #about-info .info-left {
     float:left;
+    font-size:27px;
+    line-height:2rem;
     width:50%;
 }
 
